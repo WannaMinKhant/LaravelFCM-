@@ -41,11 +41,14 @@ class NotificationController extends Controller
         $response = curl_exec($ch);
 
         return response($response);
+
     }
     
     public function getNoti(Request $request)
     {
         // save to database the device of FCM token
+
+        // adding FCM token to DB
     }
 
 
